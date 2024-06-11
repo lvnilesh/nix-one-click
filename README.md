@@ -1,3 +1,4 @@
+```
 # Assuming
 # - your system is x86_64-linux
 # - your harddrive device is /dev/sda
@@ -9,3 +10,4 @@ sudo nix \
     --flake "$FLAKE" \
     --write-efi-boot-entries \
     --disk main "$DISK_DEVICE"
+```
